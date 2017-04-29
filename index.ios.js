@@ -11,7 +11,7 @@ export default class projectHank extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to Project Hank!
+          Welcome to MyGarage!
         </Text>
         <Text style={styles.instructions}>
           Press Cmd+R to reload,{'\n'}
@@ -26,16 +26,17 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: '#303F9F',
   },
   welcome: {
     fontSize: 20,
     textAlign: 'center',
     margin: 10,
+    color: '#8BC34A'
   },
   instructions: {
     textAlign: 'center',
-    color: '#333333',
+    color: '#757575',
     marginBottom: 5,
   },
 });
